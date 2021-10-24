@@ -1,2 +1,15 @@
-<h1>Działać</h1>
+<h1>configure your cookie</h1>
+
+<h2>Select cookie base</h2>
+
+    {{#each bases}}
+        <a  href="/configurator/select-base/{{this.[0]}}">Select {{this.[0]}} for {{this.[1]}} PLN</a>
+    {{/each}}
+
+<h2>Select yur favorite addons</h2>
+
+{{#each addons}}
+    <a  href="/configurator/add-added/{{this.[0]}}">Add {{this.[0]}} for {{this.[1]}} PLN</a>
+{{/each}}
+
 {{> cookie-preview }}
