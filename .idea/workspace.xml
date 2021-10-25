@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="561261d1-0799-4d69-a250-2ecc39975ed9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/views/partials/cookie-preview.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/s3w3cookieTask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partial/addons.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/data/cookies-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partial/cookie-preview.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/addons.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partial/go-home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/go-home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +34,8 @@
       <updated>1635068422687</updated>
       <workItem from="1635068423885" duration="954000" />
       <workItem from="1635078875612" duration="1903000" />
-      <workItem from="1635086191970" duration="393000" />
+      <workItem from="1635086191970" duration="451000" />
+      <workItem from="1635143736263" duration="639000" />
     </task>
     <servers />
   </component>
