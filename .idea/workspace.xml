@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="561261d1-0799-4d69-a250-2ecc39975ed9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/data/cookies-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/cookies-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/index.hbs" afterDir="false" />
+>>>>>>> 92693853bd247454e23c0a1ff847192d42f70035
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +19,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zwoHRlcgp7hrU3baxp56sDJb3c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

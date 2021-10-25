@@ -9,3 +9,5 @@ const COOKIE_ADDONS ={
     coconut: 10,
     cranberries: 4,
 };
+
+module.exports = { COOKIE_BASE, COOKIE_ADDONS}
