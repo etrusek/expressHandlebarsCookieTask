@@ -5,21 +5,24 @@ const {orderRouter} = require("./routes/order");
 const {configuratorRouter} = require("./routes/configurator");
 const cookieParser = require('cookie-parser');
 const path = require('path')
+const {handlebarsHelpers} = require("./handlebars-helpers");
 
 const app = express();
 
-app.use(express.static(path.join(__dirname,'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(cookieParser());
 
-app.engine('.hbs', hbs({extname:'.hbs', defaultLayout: 'main'}));
+app.engine('.hbs', hbs({
+    extname: '.hbs',
+    helpers: handlebarsHelpers,
+}));
 app.set('view engine', '.hbs');
 
-app.use('/',homeRouter);
-app.use('/order',orderRouter);
-app.use('/configurator',configuratorRouter);
+app.use('/', homeRouter);
+app.use('/order', orderRouter);
+app.use('/configurator', configuratorRouter);
 
 
-
-app.listen(3000, 'localhost', ()=>{
+app.listen(3000, 'localhost', () => {
     console.log('Listening on port 3000...')
 })

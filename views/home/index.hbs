@@ -2,14 +2,18 @@
 
 <h2>Select cookie base</h2>
 
-    {{#each bases}}
-        <a  href="/configurator/select-base/{{this.[0]}}">Select {{this.[0]}} for {{this.[1]}} PLN</a>
-    {{/each}}
+{{> base-selector}}
 
 <h2>Select yur favorite addons</h2>
 
 {{#each addons}}
-    <a  href="/configurator/add-added/{{this.[0]}}">Add {{this.[0]}} for {{this.[1]}} PLN</a>
+    <a href="/configurator/add-added/{{this.[0]}}">Add {{this.[0]}} for {{this.[1]}} PLN</a>
 {{/each}}
 
-{{> cookie-preview }}
+{{#if cookie.base}}
+    {{> cookie-preview }}
+    {{>addons }}
+{{else}}
+    <p><strong> Please select base of your cookie to see it`s preview and price summary</strong></p>
+    {{> base-selector}}
+{{/if}}
