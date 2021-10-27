@@ -10,7 +10,9 @@ const handlebarsHelpers = {
         return price;
     },
     upper: str => str.toUpperCase(),
-    princify: price => price.toFixed(2)
+    princify: price => price.toFixed(2),
+    isNotInArray: (arr,element)=> !arr.includes(element),
+    isInArray: (arr,element)=> arr.includes(element),
 };
 
 module.exports = {handlebarsHelpers,}

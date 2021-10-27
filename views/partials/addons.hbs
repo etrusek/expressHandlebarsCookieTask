@@ -2,7 +2,11 @@
 <ul>
     <li>Base: {{cookie.base}} - {{princify (findPrice bases cookie.base)}} PLN</li>
     {{#each cookie.addons}}
-        <li>Base: {{this}} - {{princify (findPrice @root.addons this)}} PLN</li>
+        <li>
+            {{#if noDeleteBtn}}
+            <a href="/configurator/delete-addon/{{this}}" class="btn btn-small">Delete</a>
+            {{/if}}
+            Base: {{this}} - {{princify (findPrice @root.addons this)}} PLN  </li>
     {{/each}}
 </ul>
 <p>Total price: {{princify sum}} PLN</p>

@@ -2,3 +2,39 @@
     width: 601px;
     height: 640px;
 }
+
+.error {
+    border: 1px solid red;
+    padding: 15px;
+    background-color: #f6baba;
+}
+
+.btn {
+    background-color: #b0a797;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #463412;
+    font-weight: bold;
+    margin: 3px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.btn-small {
+    font-size: 0.85em;
+    padding: 0 5px;
+    margin: 0;
+}
+
+.btn-big {
+    font-size: 110%;
+    padding: 10px 20px;
+}
+
+.btn-disabled {
+    background-color: #585858;
+    color: #585868;
+    cursor: not-allowed;
+    pointer-events: none;
+}
