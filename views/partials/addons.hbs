@@ -1,12 +1,12 @@
 <h3>Selected parts of cookie</h3>
 <ul>
-    <li>Base: {{cookie.base}} - {{princify (findPrice bases cookie.base)}} PLN</li>
+    <li>Base: {{cookie.base}} - {{princify (findPrice allBases cookie.base)}} PLN</li>
     {{#each cookie.addons}}
         <li>
-            {{#if noDeleteBtn}}
+            {{#if (not ../noDeleteBtn)}}
             <a href="/configurator/delete-addon/{{this}}" class="btn btn-small">Delete</a>
             {{/if}}
-            Base: {{this}} - {{princify (findPrice @root.addons this)}} PLN  </li>
+            Base: {{this}} - {{princify (findPrice @root.allAddons this)}} PLN  </li>
     {{/each}}
 </ul>
 <p>Total price: {{princify sum}} PLN</p>

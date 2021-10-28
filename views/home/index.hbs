@@ -4,9 +4,9 @@
 
 {{> base-selector}}
 
-<h2>Select yur favorite addons</h2>
+<h2>Select your favorite addons</h2>
 
-{{#each addons}}
+{{#each allAddons}}
 
         <a href="/configurator/add-addon/{{this.[0]}}" class="btn {{#if (isInArray @root.cookie.addons this.[0])}}
             btn-disabled

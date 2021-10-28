@@ -8,11 +8,13 @@ const handlebarsHelpers = {
 
         const [, price] = found;
         return price;
+
     },
     upper: str => str.toUpperCase(),
     princify: price => price.toFixed(2),
     isNotInArray: (arr,element)=> !arr.includes(element),
     isInArray: (arr,element)=> arr.includes(element),
+    not: arg => !arg,
 };
 
 module.exports = {handlebarsHelpers,}
